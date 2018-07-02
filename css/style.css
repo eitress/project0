@@ -72,7 +72,6 @@ h1 {
 
 #txt-container {
   font-size: 100px;
-  display: fixed;
   position: absolute;
   color: white;
   top: 50%;
@@ -80,7 +79,6 @@ h1 {
   transform: translate(-50%, -50%); }
 
 table, th, td {
-  margin: 30px;
   font-size: 40px;
   border: 1px solid black;
   border-collapse: collapse; }
@@ -96,7 +94,8 @@ td, th {
 
 .first-col {
   text-align: left;
-  padding-left: 10px; }
+  padding-left: 10px;
+  width: 500px; }
 
 tr img {
   width: 50px;
